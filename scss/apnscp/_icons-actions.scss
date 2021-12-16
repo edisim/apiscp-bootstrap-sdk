@@ -84,6 +84,10 @@
 }
 
 .ui-action-visit-site {
+  @extend .fa-external-link-square;
+}
+
+.ui-action-visit-site-tab {
   @extend .fa-external-link;
 }
 
@@ -293,7 +297,7 @@
 }
 
 /** show label inside action link */
-.ui-app-container .ui-action-label, .ui-ajax-indicator.ui-action-label {
+.ui-app-container .ui-action-label {
   text-indent: 0;
   width: auto;
   vertical-align: baseline;
@@ -329,4 +333,25 @@
 
 .ui-action-notification.inactive {
   @extend .fa-bell-o;
+}
+
+.ui-action-login {
+
+  @extend .fa-sign-in;
+}
+
+.ui-action-logout {
+  @extend .fa-sign-out;
+}
+
+.ui-action-revert-login {
+  @extend .fa-users;
+}
+
+.ui-action-sort-desc, .ui-action-sort {
+  @extend .fa-sort-amount-desc;
+}
+
+.ui-action-sort-asc {
+  @extend .fa-sort-amount-asc;
 }
