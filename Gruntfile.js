@@ -21,6 +21,8 @@ module.exports = function (grunt) {
 
     var path = require('path')
 
+    // grunt.loadNpmTasks('grunt-postcss');
+
     // Project configuration.
     grunt.initConfig({
         // Metadata.
@@ -33,8 +35,21 @@ module.exports = function (grunt) {
 
         // Task configuration.
         clean: {
-            dist: 'dist',
+            dist: 'dist'
         },
+
+        // // Pack fonts
+        // postcss: {
+        //     options: {
+        //        processors: [
+        //           require('postcss-font-magician')({ 
+        //             hosted: ['scss/themes/' + THEME + '/fonts/inter', "/fonts"]
+        //            })
+        //        ]
+        //     },
+        //     src: 'dist/css/*.css',
+        //     dest: './css'
+        //  },
 
         // CSS build configuration
         copy: {
@@ -57,7 +72,7 @@ module.exports = function (grunt) {
 
         exec: {
             'clean-css': {
-                command: 'cleancss --skip-advanced --source-map --output dist/css/' + THEME + '.min.css dist/css/' + THEME + '.css'
+                command: 'cleancss --inline all --skip-advanced --source-map --output dist/css/' + THEME + '.min.css dist/css/' + THEME + '.css'
             },
             postcss: {
                 command: 'npm run postcss'
