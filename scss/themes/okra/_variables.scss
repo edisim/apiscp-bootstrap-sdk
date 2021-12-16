@@ -1,0 +1,213 @@
+/*!
+ * Copyright (C) Apis Networks, Inc - All Rights Reserved.
+ *
+ * Unauthorized copying of this file, via any medium, is
+ * strictly prohibited without consent. Any dissemination of
+ * material herein is prohibited.
+ *
+ * For licensing inquiries email <licensing@apisnetworks.com>
+ *
+ * Written by Matt Saladna <matt@apisnetworks.com>, May 2017
+ */
+
+
+// Body
+$body-bg: #fafafa;
+$body-alternative: #fff;
+
+// Colors
+$navy: #001f3f;
+$blue: #0074d9;
+$aqua: #7fdbff;
+$teal: #39cccc;
+$olive: #3d9970;
+$green: #1ABB9C;
+$lime: #01ff70;
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$maroon: #85144b;
+$fuchsia: #f012be;
+$purple: #b10dc9;
+$black: #111111;
+$gray: #aaaaaa;
+$silver: #dddddd;
+
+// Create grayscale
+$gray-dark: #20252c;
+$gray: #383c4c;
+$gray-light: #768793;
+$gray-lighter:              #eceeef;
+$gray-lightest:             #f7f7f9;
+
+$rocket-gray: #ebebeb;
+$accent: #cf5349;
+
+
+// Brands
+$brand-primary: #169a84;
+$brand-secondary: #c4c6ac;
+$brand-info: #8eb4cb;
+$brand-success: #3bb46c;
+$brand-warning: #F2AE72;
+$brand-danger: #8C4646;
+$brand-info: #31708f;
+$text-highlight-bg: $yellow;
+$text-highlight: #000;
+$js-colors: (
+		primary: $brand-primary,
+		secondary: darken($brand-primary, 15%),
+		tertiary: $olive,
+		inactive: $rocket-gray,
+		background: #fff
+);
+
+$alert-info-bg: #f4f8fa;
+$alert-danger-bg: #ffe5e5;
+$alert-danger-text: #a94442;
+$alert-danger-border: #934848;
+$alert-warning-border: #c0b375;
+$alert-success-bg: #f4fff4;
+$alert-padding-y: 1rem;
+
+$enable-flex:               true;
+$enable-rounded:            true;
+$enable-shadows:            true;
+$enable-gradients:          true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+$spacer: 1rem;
+$spacer-x: $spacer !default;
+$spacer-y: $spacer !default;
+
+$sidemenu-icon: #3c3c3c;
+
+/**
+ * Heading styles
+ */
+$header-bg: #292a29;
+$header-bg-light: #e7efdb;
+$header-links: $gray-lightest; //invert($header-bg);
+$header-links-hover: darken($header-links, 15%);//darken($header-links, 10%);
+$header-icons: $header-bg-light;
+$headings-font-weight: 300 !default;
+$header-icons-hover: $header-links-hover;
+// $headings-font-family: "Okta Neue", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+$table-border-width: 0;
+$body-color: #1a2b1d;
+
+$input-color: $body-color;
+
+$sidemenu-max-width: 230px;
+$sidemenu-link-color: $gray-dark;
+$sidemenu-link-hover-color: $gray-dark;
+$sidemenu-icon-hover: darken($sidemenu-icon, 15%);
+$sidemenu-icon-active: darken($sidemenu-icon, 15%);
+$sidemenu-active-app-bg: none;
+$sidemenu-app-hover-bg: #eef2ef;
+$sidemenu-app-hover-color: darken($sidemenu-icon, 15%);
+
+$menu-border: 1px solid $header-bg;
+$menu-hover-bg: lighten($header-bg, 5%);
+$menu-hover-border: 1px solid darken($header-bg, 5%);
+$menu-breadcrumb-bg: $header-bg;
+$menu-breadcrumb-border: 1px solid darken($header-bg, 20%);
+$menu-breadcrumb-color: $gray-dark;
+$menu-breadcrumb-color-hover: darken($sidemenu-icon, 15%);
+
+$footer-bg: $header-bg;
+$speed: 200ms;
+$easing: cubic-bezier(0.7, 0, 0, 0.7);
+
+$spectrum-height: 2px;
+$navbar-dark-color: #bfbfbf;
+$nav-pills-active-link-bg: #eef2ef;
+$nav-pills-active-link-color: #000;
+$link-color: $brand-primary;
+$link-decoration: underline;
+$link-hover-color: darken($brand-primary, 50%);
+
+// Borders
+$hostineer-border-color: darken($body-alternative, 10%);
+$list-group-border: $hostineer-border-color;
+$navbar-default-border: $hostineer-border-color;
+$panel-default-border: $hostineer-border-color;
+$panel-inner-border: $hostineer-border-color;
+
+// Typography
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root: 14px;
+$font-size-base: 0.875rem;
+$font-family-base: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$line-height-base: 1.5;
+
+$list-group-active-color: $body-color;
+$list-group-active-bg: #e6ece8;
+$list-group-active-border: #bfd4b8;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $body-color;
+$btn-secondary-color: #324736;
+$btn-secondary-border: mix($btn-secondary-color, lighten($brand-primary, 35%), 10%);
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: darken($brand-primary, 7.5%);
+$btn-secondary-border: #a2a2a2;
+
+$input-box-shadow: inset 0 1px 1px rgba($black, .075);
+
+// Inputs
+$input-border: lighten($body-color, 40%);
+$input-border-focus: $input-border-color;
+$input-color-placeholder: lighten($body-color, 30%);
+
+$input-focus-box-shadow: 0 0 0.5rem rgba(105, 105, 105, 0.33);//inset 0 0 0 0.2rem rgba(59, 180, 108, 0.25);
+$input-group-addon-bg: #fafafa;
+
+$custom-control-checked-indicator-bg: $brand-primary;
+$custom-control-checked-indicator-color: #fff;
+$custom-control-indicator-bg: #fafafa;
+$custom-control-focus-indicator-box-shadow: 0 0 0 1px $body-alternative, 0 0 0 3px opacify($brand-primary, 0.33);
+$custom-control-disabled-indicator-bg: $custom-select-disabled-bg;
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Dropdown
+$dropdown-link-hover-color: #000;
+$dropdown-link-active-bg: $brand-primary;
+$dropdown-link-active-color: #fff;
+
+  // Footer
+$footer-margin: 6rem;
+
+// Misc
+$dashboard-bg: #fff;
+
+$small-dropshadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+	0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+$large-dropshadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+	0 2px 4px -1px rgba(0, 0, 0, 0.4);
+
+$nav-border-color: #efefef;
+$badge-success-bg: $brand-primary;
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+$code-padding-y: 0.1rem;
+$code-padding-x: 0.25rem;
+$code-color: #476582;
+$code-bg: rgba(27,31,35,.05);
+$sidemenu-max-width: 200px;

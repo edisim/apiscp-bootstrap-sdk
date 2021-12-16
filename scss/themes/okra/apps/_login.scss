@@ -1,0 +1,15 @@
+#app-login {
+  @include scrim-gradient($brand-primary, to bottom right);
+  background-color: $header-bg;
+  .logo {
+	background: url(/images/apps/login/okra-logo.svg) center center no-repeat;
+	background-size: 100%;
+	height: 125px;
+	width: 235px;
+  }
+
+
+  .login-container {
+	border: 1px solid darken(#eef2ef, 15%);
+  }
+}

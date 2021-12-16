@@ -1,0 +1,32 @@
+#okra {
+	transform-origin: 16.5% 53%;
+}
+svg:hover #okra {
+	animation: rotation 0.3s ease-in-out;
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(72deg);
+	}
+}
+
+.okra-logo:hover .letter {
+	animation-name: pulse;
+	animation-duration: .2s;
+	// animation-iteration-count: infinite;		
+}
+
+.letter.l-o {animation-delay: 0.04s; }
+.letter.l-k {animation-delay: 0.08s; }
+.letter.l-r {animation-delay: 0.12s; }
+.letter.l-a {animation-delay: 0.16s; }
+
+@keyframes pulse {
+	50% {
+		opacity: 50%;
+	}
+}
