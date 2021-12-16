@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-BlackItalic.woff2') format('woff2'),
+        url('OktaNeue-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Black.woff2') format('woff2'),
+        url('OktaNeue-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-BoldItalic.woff2') format('woff2'),
+        url('OktaNeue-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Light.woff2') format('woff2'),
+        url('OktaNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-RegularItalic.woff2') format('woff2'),
+        url('OktaNeue-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-ExtraLight.woff2') format('woff2'),
+        url('OktaNeue-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-LightItalic.woff2') format('woff2'),
+        url('OktaNeue-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Medium.woff2') format('woff2'),
+        url('OktaNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Bold.woff2') format('woff2'),
+        url('OktaNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue Normal';
+    src: url('OktaNeue-NormalItalic.woff2') format('woff2'),
+        url('OktaNeue-NormalItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-ExtraLightItalic.woff2') format('woff2'),
+        url('OktaNeue-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-HeavyItalic.woff2') format('woff2'),
+        url('OktaNeue-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-MediumItalic.woff2') format('woff2'),
+        url('OktaNeue-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Heavy.woff2') format('woff2'),
+        url('OktaNeue-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue Normal';
+    src: url('OktaNeue-Normal.woff2') format('woff2'),
+        url('OktaNeue-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-SemiBold.woff2') format('woff2'),
+        url('OktaNeue-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Regular.woff2') format('woff2'),
+        url('OktaNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-ThinItalic.woff2') format('woff2'),
+        url('OktaNeue-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-SemiBoldItalic.woff2') format('woff2'),
+        url('OktaNeue-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Thin.woff2') format('woff2'),
+        url('OktaNeue-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-UltraLightItalic.woff2') format('woff2'),
+        url('OktaNeue-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-UltraLight.woff2') format('woff2'),
+        url('OktaNeue-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
